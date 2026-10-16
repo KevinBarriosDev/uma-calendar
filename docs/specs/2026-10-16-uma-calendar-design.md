@@ -135,6 +135,6 @@ uma-calendar/
 ## Antes de publicar
 
 1. Verificar con capturas los objetivos cargados.
-2. Favicon propio y dominio definitivo (la URL canónica sale de `site` en `astro.config.mjs`).
+2. Favicon propio. Sin dominio propio por ahora: el sitio vive en el subdominio de Vercel. Al crear el proyecto en Vercel, confirmar que el subdominio asignado coincide con `site` en `astro.config.mjs` (`https://uma-calendar.vercel.app`), porque de ahí sale la URL canónica; si Vercel asigna otro, cambiar `site`.
 3. Créditos en la página y en el README: umamusu.wiki como fuente de las carreras y Claude en **Credits**.
 4. Aviso de que es un proyecto de fans, sin relación con Cygames.
