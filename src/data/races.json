@@ -1,0 +1,534 @@
+[
+ {
+  "id": "junior-make-debut",
+  "name": "Junior Make Debut",
+  "grade": "Debut",
+  "track": null,
+  "surface": null,
+  "distance": null,
+  "category": null,
+  "direction": null,
+  "turns": [
+   12
+  ],
+  "verified": true
+ },
+ {
+  "id": "junior-maiden-race",
+  "name": "Junior Maiden Race",
+  "grade": "Maiden",
+  "track": null,
+  "surface": null,
+  "distance": null,
+  "category": null,
+  "direction": null,
+  "turns": [
+   13
+  ],
+  "verified": true
+ },
+ {
+  "id": "asahi-hai-futurity-stakes",
+  "name": "Asahi Hai Futurity Stakes",
+  "grade": "G1",
+  "track": "Hanshin",
+  "surface": "Turf",
+  "distance": 1600,
+  "category": "Mile",
+  "direction": null,
+  "turns": [
+   23
+  ],
+  "verified": true
+ },
+ {
+  "id": "hanshin-juvenile-fillies",
+  "name": "Hanshin Juvenile Fillies",
+  "grade": "G1",
+  "track": "Hanshin",
+  "surface": "Turf",
+  "distance": 1600,
+  "category": "Mile",
+  "direction": null,
+  "turns": [
+   23
+  ],
+  "verified": true
+ },
+ {
+  "id": "hopeful-stakes",
+  "name": "Hopeful Stakes",
+  "grade": "G1",
+  "track": "Nakayama",
+  "surface": "Turf",
+  "distance": 2000,
+  "category": "Medium",
+  "direction": null,
+  "turns": [
+   24
+  ],
+  "verified": true
+ },
+ {
+  "id": "zen-nippon-junior-yushun",
+  "name": "Zen-Nippon Junior Yushun",
+  "grade": "G1",
+  "track": "Kawasaki",
+  "surface": "Dirt",
+  "distance": 1600,
+  "category": "Mile",
+  "direction": null,
+  "turns": [
+   24
+  ],
+  "verified": true
+ },
+ {
+  "id": "wakaba-stakes",
+  "name": "Wakaba Stakes",
+  "grade": "OP",
+  "track": "Hanshin",
+  "surface": "Turf",
+  "distance": 2000,
+  "category": "Medium",
+  "direction": null,
+  "turns": [
+   30
+  ],
+  "verified": false
+ },
+ {
+  "id": "oka-sho",
+  "name": "Oka Sho",
+  "grade": "G1",
+  "track": "Hanshin",
+  "surface": "Turf",
+  "distance": 1600,
+  "category": "Mile",
+  "direction": null,
+  "turns": [
+   31
+  ],
+  "verified": true
+ },
+ {
+  "id": "satsuki-sho",
+  "name": "Satsuki Sho",
+  "grade": "G1",
+  "track": "Nakayama",
+  "surface": "Turf",
+  "distance": 2000,
+  "category": "Medium",
+  "direction": null,
+  "turns": [
+   31
+  ],
+  "verified": true
+ },
+ {
+  "id": "nhk-mile-cup",
+  "name": "NHK Mile Cup",
+  "grade": "G1",
+  "track": "Tokyo",
+  "surface": "Turf",
+  "distance": 1600,
+  "category": "Mile",
+  "direction": null,
+  "turns": [
+   33
+  ],
+  "verified": true
+ },
+ {
+  "id": "japanese-oaks",
+  "name": "Japanese Oaks",
+  "grade": "G1",
+  "track": "Tokyo",
+  "surface": "Turf",
+  "distance": 2400,
+  "category": "Medium",
+  "direction": null,
+  "turns": [
+   34
+  ],
+  "verified": true
+ },
+ {
+  "id": "tokyo-yushun-japanese-derby",
+  "name": "Tokyo Yushun (Japanese Derby)",
+  "grade": "G1",
+  "track": "Tokyo",
+  "surface": "Turf",
+  "distance": 2400,
+  "category": "Medium",
+  "direction": null,
+  "turns": [
+   34
+  ],
+  "verified": true
+ },
+ {
+  "id": "yasuda-kinen",
+  "name": "Yasuda Kinen",
+  "grade": "G1",
+  "track": "Tokyo",
+  "surface": "Turf",
+  "distance": 1600,
+  "category": "Mile",
+  "direction": null,
+  "turns": [
+   35,
+   59
+  ],
+  "verified": true
+ },
+ {
+  "id": "takarazuka-kinen",
+  "name": "Takarazuka Kinen",
+  "grade": "G1",
+  "track": "Hanshin",
+  "surface": "Turf",
+  "distance": 2200,
+  "category": "Medium",
+  "direction": null,
+  "turns": [
+   36,
+   60
+  ],
+  "verified": true
+ },
+ {
+  "id": "japan-dirt-derby",
+  "name": "Japan Dirt Derby",
+  "grade": "G1",
+  "track": "Ooi",
+  "surface": "Dirt",
+  "distance": 2000,
+  "category": "Medium",
+  "direction": null,
+  "turns": [
+   37
+  ],
+  "verified": true
+ },
+ {
+  "id": "sprinter-stakes",
+  "name": "Sprinter Stakes",
+  "grade": "G1",
+  "track": "Nakayama",
+  "surface": "Turf",
+  "distance": 1200,
+  "category": "Sprint",
+  "direction": null,
+  "turns": [
+   41,
+   65
+  ],
+  "verified": true
+ },
+ {
+  "id": "mile-championship-nambu-hai",
+  "name": "Mile Championship Nambu Hai",
+  "grade": "G1",
+  "track": "Morioka",
+  "surface": "Dirt",
+  "distance": 1600,
+  "category": "Mile",
+  "direction": null,
+  "turns": [
+   43,
+   67
+  ],
+  "verified": true
+ },
+ {
+  "id": "kikuka-sho",
+  "name": "Kikuka Sho",
+  "grade": "G1",
+  "track": "Kyoto",
+  "surface": "Turf",
+  "distance": 3000,
+  "category": "Long",
+  "direction": null,
+  "turns": [
+   44
+  ],
+  "verified": true
+ },
+ {
+  "id": "shuka-sho",
+  "name": "Shuka Sho",
+  "grade": "G1",
+  "track": "Kyoto",
+  "surface": "Turf",
+  "distance": 2000,
+  "category": "Medium",
+  "direction": null,
+  "turns": [
+   44
+  ],
+  "verified": true
+ },
+ {
+  "id": "tenno-sho-autumn",
+  "name": "Tenno Sho (Autumn)",
+  "grade": "G1",
+  "track": "Tokyo",
+  "surface": "Turf",
+  "distance": 2000,
+  "category": "Medium",
+  "direction": null,
+  "turns": [
+   44,
+   68
+  ],
+  "verified": true
+ },
+ {
+  "id": "jbc-classic",
+  "name": "JBC Classic",
+  "grade": "G1",
+  "track": null,
+  "surface": "Dirt",
+  "distance": null,
+  "category": "Medium",
+  "direction": null,
+  "turns": [
+   45,
+   69
+  ],
+  "verified": true
+ },
+ {
+  "id": "jbc-ladies-classic",
+  "name": "JBC Ladies Classic",
+  "grade": "G1",
+  "track": null,
+  "surface": "Dirt",
+  "distance": null,
+  "category": "Mile",
+  "direction": null,
+  "turns": [
+   45,
+   69
+  ],
+  "verified": true
+ },
+ {
+  "id": "jbc-sprint",
+  "name": "JBC Sprint",
+  "grade": "G1",
+  "track": null,
+  "surface": "Dirt",
+  "distance": null,
+  "category": "Sprint",
+  "direction": null,
+  "turns": [
+   45,
+   69
+  ],
+  "verified": true
+ },
+ {
+  "id": "queen-elizabeth-cup",
+  "name": "Queen Elizabeth Cup",
+  "grade": "G1",
+  "track": "Kyoto",
+  "surface": "Turf",
+  "distance": 2200,
+  "category": "Medium",
+  "direction": null,
+  "turns": [
+   45,
+   69
+  ],
+  "verified": true
+ },
+ {
+  "id": "japan-cup",
+  "name": "Japan Cup",
+  "grade": "G1",
+  "track": "Tokyo",
+  "surface": "Turf",
+  "distance": 2400,
+  "category": "Medium",
+  "direction": null,
+  "turns": [
+   46,
+   70
+  ],
+  "verified": true
+ },
+ {
+  "id": "mile-championship",
+  "name": "Mile Championship",
+  "grade": "G1",
+  "track": "Kyoto",
+  "surface": "Turf",
+  "distance": 1600,
+  "category": "Mile",
+  "direction": null,
+  "turns": [
+   46,
+   70
+  ],
+  "verified": true
+ },
+ {
+  "id": "champions-cup",
+  "name": "Champions Cup",
+  "grade": "G1",
+  "track": "Chukyo",
+  "surface": "Dirt",
+  "distance": 1800,
+  "category": "Mile",
+  "direction": null,
+  "turns": [
+   47,
+   71
+  ],
+  "verified": true
+ },
+ {
+  "id": "arima-kinen",
+  "name": "Arima Kinen",
+  "grade": "G1",
+  "track": "Nakayama",
+  "surface": "Turf",
+  "distance": 2500,
+  "category": "Long",
+  "direction": null,
+  "turns": [
+   48,
+   72
+  ],
+  "verified": true
+ },
+ {
+  "id": "tokyo-daishoten",
+  "name": "Tokyo Daishoten",
+  "grade": "G1",
+  "track": "Ooi",
+  "surface": "Dirt",
+  "distance": 2000,
+  "category": "Medium",
+  "direction": null,
+  "turns": [
+   48,
+   72
+  ],
+  "verified": true
+ },
+ {
+  "id": "kawasaki-kinen",
+  "name": "Kawasaki Kinen",
+  "grade": "G1",
+  "track": "Kawasaki",
+  "surface": "Dirt",
+  "distance": 2100,
+  "category": "Medium",
+  "direction": null,
+  "turns": [
+   51
+  ],
+  "verified": true
+ },
+ {
+  "id": "february-stakes",
+  "name": "February Stakes",
+  "grade": "G1",
+  "track": "Tokyo",
+  "surface": "Dirt",
+  "distance": 1600,
+  "category": "Mile",
+  "direction": null,
+  "turns": [
+   52
+  ],
+  "verified": true
+ },
+ {
+  "id": "osaka-hai",
+  "name": "Osaka Hai",
+  "grade": "G1",
+  "track": "Hanshin",
+  "surface": "Turf",
+  "distance": 2000,
+  "category": "Medium",
+  "direction": null,
+  "turns": [
+   54
+  ],
+  "verified": true
+ },
+ {
+  "id": "takamatsunomiya-kinen",
+  "name": "Takamatsunomiya Kinen",
+  "grade": "G1",
+  "track": "Chukyo",
+  "surface": "Turf",
+  "distance": 1200,
+  "category": "Sprint",
+  "direction": null,
+  "turns": [
+   54
+  ],
+  "verified": true
+ },
+ {
+  "id": "kashiwa-kinen",
+  "name": "Kashiwa Kinen",
+  "grade": "G1",
+  "track": "Funabashi",
+  "surface": "Dirt",
+  "distance": 1600,
+  "category": "Mile",
+  "direction": null,
+  "turns": [
+   57
+  ],
+  "verified": true
+ },
+ {
+  "id": "tenno-sho-spring",
+  "name": "Tenno Sho (Spring)",
+  "grade": "G1",
+  "track": "Kyoto",
+  "surface": "Turf",
+  "distance": 3200,
+  "category": "Long",
+  "direction": null,
+  "turns": [
+   57
+  ],
+  "verified": true
+ },
+ {
+  "id": "victoria-mile",
+  "name": "Victoria Mile",
+  "grade": "G1",
+  "track": "Tokyo",
+  "surface": "Turf",
+  "distance": 1600,
+  "category": "Mile",
+  "direction": null,
+  "turns": [
+   57
+  ],
+  "verified": true
+ },
+ {
+  "id": "teio-sho",
+  "name": "Teio Sho",
+  "grade": "G1",
+  "track": "Ooi",
+  "surface": "Dirt",
+  "distance": 2000,
+  "category": "Medium",
+  "direction": null,
+  "turns": [
+   60
+  ],
+  "verified": true
+ }
+]

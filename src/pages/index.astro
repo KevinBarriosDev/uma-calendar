@@ -1,0 +1,9 @@
+---
+import Base from '../layouts/Base.astro';
+import Calendar from '../components/Calendar.tsx';
+import { characters, races } from '../data';
+---
+<Base title="Uma Calendar · Career Race Calendar (Global)" description="See every career race by turn, like in the game, and which Umas have an objective in each turn.">
+  <h1 class="sr-only">Career race calendar</h1>
+  <Calendar client:load races={races} characters={characters} />
+</Base>

@@ -1,0 +1,16 @@
+Licencia de los datos de Uma Calendar
+
+Los archivos de data/manual/ y los generados en src/data/*.json se publican
+bajo Creative Commons Atribución-CompartirIgual 4.0 Internacional (CC BY-SA 4.0):
+https://creativecommons.org/licenses/by-sa/4.0/
+
+Atribución: el calendario de carreras (nombres, grados, hipódromos, distancias y
+turnos) proviene de la tabla "G1 Races Calendar" de umamusu.wiki
+(https://umamusu.wiki), también bajo CC BY-SA 4.0. Los datos se cargaron a mano,
+con cambios de formato y de organización.
+
+Los objetivos de cada Uma los cargó el autor a mano y los confirma contra el
+juego; mientras no estén confirmados llevan "verificar": true.
+
+Esta licencia cubre solo los datos. El código del proyecto tiene su propia licencia
+y los nombres y marcas de Umamusume: Pretty Derby pertenecen a Cygames, Inc.

@@ -1,0 +1,11 @@
+---
+import Base from '../../layouts/Base.astro';
+import { races } from '../../data';
+import { compareRaces } from '../../lib/calendar';
+import { gradeClass } from '../../lib/format';
+const sorted = [...races].sort(compareRaces);
+---
+<Base title="All career races · Uma Calendar" description="Every race in the Umamusume career calendar (Global), with grade, track and distance.">
+  <h1>Races</h1>
+  <ul>{sorted.map((r) => <li><span class={gradeClass(r.grade)}>{r.grade}</span> <a href={`/races/${r.id}/`}>{r.name}</a></li>)}</ul>
+</Base>

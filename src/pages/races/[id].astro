@@ -1,0 +1,51 @@
+---
+import Base from '../../layouts/Base.astro';
+import { characters, racesById, races } from '../../data';
+import type { Race } from '../../data/types';
+import { charactersWithRace } from '../../lib/calendar';
+import { gradeClass, objectiveText, raceMeta } from '../../lib/format';
+import { turnLabel } from '../../lib/turn';
+
+export function getStaticPaths() {
+  return races.map((r) => ({ params: { id: r.id }, props: { race: r } }));
+}
+const { race } = Astro.props as { race: Race };
+const umas = charactersWithRace(characters, race.id);
+// Cada Uma aparece solo en el turno que indica su objetivo (principal o alternativa).
+const byTurn = race.turns.map((turn) => ({
+  turn,
+  entries: umas.flatMap(({ character, objective }) => {
+    if (objective.kind !== 'race') return [];
+    const out: { character: typeof character; objective: typeof objective; alternative: boolean }[] = [];
+    if (objective.turn === turn && objective.raceIds.includes(race.id)) out.push({ character, objective, alternative: false });
+    if (objective.alternatives.some((a) => a.turn === turn && a.raceIds.includes(race.id))) out.push({ character, objective, alternative: true });
+    return out;
+  }),
+}));
+---
+<Base title={`${race.name} (${race.grade}) · Uma Calendar`} description={`${race.name}: when it runs in the Umamusume career (Global) and which Umas have it as an objective.`}>
+  <h1><span class={gradeClass(race.grade)}>{race.grade}</span> {race.name}</h1>
+  <p>{raceMeta(race)}</p>
+  <section class="card">
+    <h2>When it runs</h2>
+    <ul>{race.turns.map((t) => <li><a href={`/?turn=${t}`}>{turnLabel(t)}</a></li>)}</ul>
+  </section>
+  <section class="card">
+    <h2>Umas with this race as an objective</h2>
+    {umas.length === 0 ? <p class="muted">None.</p> : byTurn.map(({ turn, entries }) => (
+      <>
+        <h3>{turnLabel(turn)}</h3>
+        {entries.length === 0 ? <p class="muted">None.</p> : (
+          <ul>{entries.map(({ character, objective, alternative }) => (
+            <li><a href={`/characters/${character.id}/`}>{character.name}</a>{alternative ? ' · alternative' : ''} · {objectiveText(objective, racesById)}{!objective.verified && <span class="badge-unverified">unverified</span>}</li>
+          ))}</ul>
+        )}
+      </>
+    ))}
+  </section>
+</Base>
+<style>
+  section { margin-top: 12px; overflow-wrap: anywhere; }
+  h2 { font-size: 16px; margin: 0 0 6px; }
+  h3 { font-size: 14px; margin: 8px 0 2px; }
+</style>

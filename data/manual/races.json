@@ -1,0 +1,224 @@
+[
+  {
+    "id": "junior-make-debut", "name": "Junior Make Debut", "grade": "Debut",
+    "track": null, "surface": null, "distance": null, "direction": null,
+    "runs": [{ "year": 1, "month": 6, "half": "late" }],
+    "source": "author", "verificar": false
+  },
+  {
+    "id": "junior-maiden-race", "name": "Junior Maiden Race", "grade": "Maiden",
+    "track": null, "surface": null, "distance": null, "direction": null,
+    "runs": [{ "year": 1, "month": 7, "half": "early" }],
+    "source": "author", "verificar": false
+  },
+  {
+    "id": "asahi-hai-futurity-stakes", "name": "Asahi Hai Futurity Stakes", "grade": "G1",
+    "track": "Hanshin", "surface": "Turf", "distance": 1600, "direction": null,
+    "runs": [{ "year": 1, "month": 12, "half": "early" }],
+    "source": "umamusu.wiki", "verificar": false
+  },
+  {
+    "id": "hanshin-juvenile-fillies", "name": "Hanshin Juvenile Fillies", "grade": "G1",
+    "track": "Hanshin", "surface": "Turf", "distance": 1600, "direction": null,
+    "runs": [{ "year": 1, "month": 12, "half": "early" }],
+    "source": "umamusu.wiki", "verificar": false
+  },
+  {
+    "id": "hopeful-stakes", "name": "Hopeful Stakes", "grade": "G1",
+    "track": "Nakayama", "surface": "Turf", "distance": 2000, "direction": null,
+    "runs": [{ "year": 1, "month": 12, "half": "late" }],
+    "source": "umamusu.wiki", "verificar": false
+  },
+  {
+    "id": "zen-nippon-junior-yushun", "name": "Zen-Nippon Junior Yushun", "grade": "G1",
+    "track": "Kawasaki", "surface": "Dirt", "distance": 1600, "direction": null,
+    "runs": [{ "year": 1, "month": 12, "half": "late" }],
+    "source": "umamusu.wiki", "verificar": false
+  },
+  {
+    "id": "wakaba-stakes", "name": "Wakaba Stakes", "grade": "OP",
+    "track": "Hanshin", "surface": "Turf", "distance": 2000, "direction": null,
+    "runs": [{ "year": 2, "month": 3, "half": "late" }],
+    "source": "author", "verificar": true
+  },
+  {
+    "id": "oka-sho", "name": "Oka Sho", "grade": "G1",
+    "track": "Hanshin", "surface": "Turf", "distance": 1600, "direction": null,
+    "runs": [{ "year": 2, "month": 4, "half": "early" }],
+    "source": "umamusu.wiki", "verificar": false
+  },
+  {
+    "id": "satsuki-sho", "name": "Satsuki Sho", "grade": "G1",
+    "track": "Nakayama", "surface": "Turf", "distance": 2000, "direction": null,
+    "runs": [{ "year": 2, "month": 4, "half": "early" }],
+    "source": "umamusu.wiki", "verificar": false
+  },
+  {
+    "id": "nhk-mile-cup", "name": "NHK Mile Cup", "grade": "G1",
+    "track": "Tokyo", "surface": "Turf", "distance": 1600, "direction": null,
+    "runs": [{ "year": 2, "month": 5, "half": "early" }],
+    "source": "umamusu.wiki", "verificar": false
+  },
+  {
+    "id": "japanese-oaks", "name": "Japanese Oaks", "grade": "G1",
+    "track": "Tokyo", "surface": "Turf", "distance": 2400, "direction": null,
+    "runs": [{ "year": 2, "month": 5, "half": "late" }],
+    "source": "umamusu.wiki", "verificar": false
+  },
+  {
+    "id": "tokyo-yushun-japanese-derby", "name": "Tokyo Yushun (Japanese Derby)", "grade": "G1",
+    "track": "Tokyo", "surface": "Turf", "distance": 2400, "direction": null,
+    "runs": [{ "year": 2, "month": 5, "half": "late" }],
+    "source": "umamusu.wiki", "verificar": false
+  },
+  {
+    "id": "yasuda-kinen", "name": "Yasuda Kinen", "grade": "G1",
+    "track": "Tokyo", "surface": "Turf", "distance": 1600, "direction": null,
+    "runs": [{ "year": 2, "month": 6, "half": "early" }, { "year": 3, "month": 6, "half": "early" }],
+    "source": "umamusu.wiki", "verificar": false
+  },
+  {
+    "id": "takarazuka-kinen", "name": "Takarazuka Kinen", "grade": "G1",
+    "track": "Hanshin", "surface": "Turf", "distance": 2200, "direction": null,
+    "runs": [{ "year": 2, "month": 6, "half": "late" }, { "year": 3, "month": 6, "half": "late" }],
+    "source": "umamusu.wiki", "verificar": false
+  },
+  {
+    "id": "japan-dirt-derby", "name": "Japan Dirt Derby", "grade": "G1",
+    "track": "Ooi", "surface": "Dirt", "distance": 2000, "direction": null,
+    "runs": [{ "year": 2, "month": 7, "half": "early" }],
+    "source": "umamusu.wiki", "verificar": false
+  },
+  {
+    "id": "sprinter-stakes", "name": "Sprinter Stakes", "grade": "G1",
+    "track": "Nakayama", "surface": "Turf", "distance": 1200, "direction": null,
+    "runs": [{ "year": 2, "month": 9, "half": "early" }, { "year": 3, "month": 9, "half": "early" }],
+    "source": "umamusu.wiki", "verificar": false
+  },
+  {
+    "id": "mile-championship-nambu-hai", "name": "Mile Championship Nambu Hai", "grade": "G1",
+    "track": "Morioka", "surface": "Dirt", "distance": 1600, "direction": null,
+    "runs": [{ "year": 2, "month": 10, "half": "early" }, { "year": 3, "month": 10, "half": "early" }],
+    "source": "umamusu.wiki", "verificar": false
+  },
+  {
+    "id": "kikuka-sho", "name": "Kikuka Sho", "grade": "G1",
+    "track": "Kyoto", "surface": "Turf", "distance": 3000, "direction": null,
+    "runs": [{ "year": 2, "month": 10, "half": "late" }],
+    "source": "umamusu.wiki", "verificar": false
+  },
+  {
+    "id": "shuka-sho", "name": "Shuka Sho", "grade": "G1",
+    "track": "Kyoto", "surface": "Turf", "distance": 2000, "direction": null,
+    "runs": [{ "year": 2, "month": 10, "half": "late" }],
+    "source": "umamusu.wiki", "verificar": false
+  },
+  {
+    "id": "tenno-sho-autumn", "name": "Tenno Sho (Autumn)", "grade": "G1",
+    "track": "Tokyo", "surface": "Turf", "distance": 2000, "direction": null,
+    "runs": [{ "year": 2, "month": 10, "half": "late" }, { "year": 3, "month": 10, "half": "late" }],
+    "source": "umamusu.wiki", "verificar": false
+  },
+  {
+    "id": "jbc-classic", "name": "JBC Classic", "grade": "G1",
+    "track": null, "surface": "Dirt", "distance": null, "category": "Medium", "direction": null,
+    "runs": [{ "year": 2, "month": 11, "half": "early" }, { "year": 3, "month": 11, "half": "early" }],
+    "source": "umamusu.wiki", "verificar": false
+  },
+  {
+    "id": "jbc-ladies-classic", "name": "JBC Ladies Classic", "grade": "G1",
+    "track": null, "surface": "Dirt", "distance": null, "category": "Mile", "direction": null,
+    "runs": [{ "year": 2, "month": 11, "half": "early" }, { "year": 3, "month": 11, "half": "early" }],
+    "source": "umamusu.wiki", "verificar": false
+  },
+  {
+    "id": "jbc-sprint", "name": "JBC Sprint", "grade": "G1",
+    "track": null, "surface": "Dirt", "distance": null, "category": "Sprint", "direction": null,
+    "runs": [{ "year": 2, "month": 11, "half": "early" }, { "year": 3, "month": 11, "half": "early" }],
+    "source": "umamusu.wiki", "verificar": false
+  },
+  {
+    "id": "queen-elizabeth-cup", "name": "Queen Elizabeth Cup", "grade": "G1",
+    "track": "Kyoto", "surface": "Turf", "distance": 2200, "direction": null,
+    "runs": [{ "year": 2, "month": 11, "half": "early" }, { "year": 3, "month": 11, "half": "early" }],
+    "source": "umamusu.wiki", "verificar": false
+  },
+  {
+    "id": "japan-cup", "name": "Japan Cup", "grade": "G1",
+    "track": "Tokyo", "surface": "Turf", "distance": 2400, "direction": null,
+    "runs": [{ "year": 2, "month": 11, "half": "late" }, { "year": 3, "month": 11, "half": "late" }],
+    "source": "umamusu.wiki", "verificar": false
+  },
+  {
+    "id": "mile-championship", "name": "Mile Championship", "grade": "G1",
+    "track": "Kyoto", "surface": "Turf", "distance": 1600, "direction": null,
+    "runs": [{ "year": 2, "month": 11, "half": "late" }, { "year": 3, "month": 11, "half": "late" }],
+    "source": "umamusu.wiki", "verificar": false
+  },
+  {
+    "id": "champions-cup", "name": "Champions Cup", "grade": "G1",
+    "track": "Chukyo", "surface": "Dirt", "distance": 1800, "direction": null,
+    "runs": [{ "year": 2, "month": 12, "half": "early" }, { "year": 3, "month": 12, "half": "early" }],
+    "source": "umamusu.wiki", "verificar": false
+  },
+  {
+    "id": "arima-kinen", "name": "Arima Kinen", "grade": "G1",
+    "track": "Nakayama", "surface": "Turf", "distance": 2500, "direction": null,
+    "runs": [{ "year": 2, "month": 12, "half": "late" }, { "year": 3, "month": 12, "half": "late" }],
+    "source": "umamusu.wiki", "verificar": false
+  },
+  {
+    "id": "tokyo-daishoten", "name": "Tokyo Daishoten", "grade": "G1",
+    "track": "Ooi", "surface": "Dirt", "distance": 2000, "direction": null,
+    "runs": [{ "year": 2, "month": 12, "half": "late" }, { "year": 3, "month": 12, "half": "late" }],
+    "source": "umamusu.wiki", "verificar": false
+  },
+  {
+    "id": "kawasaki-kinen", "name": "Kawasaki Kinen", "grade": "G1",
+    "track": "Kawasaki", "surface": "Dirt", "distance": 2100, "direction": null,
+    "runs": [{ "year": 3, "month": 2, "half": "early" }],
+    "source": "umamusu.wiki", "verificar": false
+  },
+  {
+    "id": "february-stakes", "name": "February Stakes", "grade": "G1",
+    "track": "Tokyo", "surface": "Dirt", "distance": 1600, "direction": null,
+    "runs": [{ "year": 3, "month": 2, "half": "late" }],
+    "source": "umamusu.wiki", "verificar": false
+  },
+  {
+    "id": "osaka-hai", "name": "Osaka Hai", "grade": "G1",
+    "track": "Hanshin", "surface": "Turf", "distance": 2000, "direction": null,
+    "runs": [{ "year": 3, "month": 3, "half": "late" }],
+    "source": "umamusu.wiki", "verificar": false
+  },
+  {
+    "id": "takamatsunomiya-kinen", "name": "Takamatsunomiya Kinen", "grade": "G1",
+    "track": "Chukyo", "surface": "Turf", "distance": 1200, "direction": null,
+    "runs": [{ "year": 3, "month": 3, "half": "late" }],
+    "source": "umamusu.wiki", "verificar": false
+  },
+  {
+    "id": "kashiwa-kinen", "name": "Kashiwa Kinen", "grade": "G1",
+    "track": "Funabashi", "surface": "Dirt", "distance": 1600, "direction": null,
+    "runs": [{ "year": 3, "month": 5, "half": "early" }],
+    "source": "umamusu.wiki", "verificar": false
+  },
+  {
+    "id": "tenno-sho-spring", "name": "Tenno Sho (Spring)", "grade": "G1",
+    "track": "Kyoto", "surface": "Turf", "distance": 3200, "direction": null,
+    "runs": [{ "year": 3, "month": 5, "half": "early" }],
+    "source": "umamusu.wiki", "verificar": false
+  },
+  {
+    "id": "victoria-mile", "name": "Victoria Mile", "grade": "G1",
+    "track": "Tokyo", "surface": "Turf", "distance": 1600, "direction": null,
+    "runs": [{ "year": 3, "month": 5, "half": "early" }],
+    "source": "umamusu.wiki", "verificar": false
+  },
+  {
+    "id": "teio-sho", "name": "Teio Sho", "grade": "G1",
+    "track": "Ooi", "surface": "Dirt", "distance": 2000, "direction": null,
+    "runs": [{ "year": 3, "month": 6, "half": "late" }],
+    "source": "umamusu.wiki", "verificar": false
+  }
+]

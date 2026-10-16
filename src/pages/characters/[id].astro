@@ -1,0 +1,46 @@
+---
+import Base from '../../layouts/Base.astro';
+import YearGrid from '../../components/YearGrid.tsx';
+import '../../components/calendar.css';
+import { characters, races, racesById } from '../../data';
+import type { Character } from '../../data/types';
+import { objectiveTurns } from '../../lib/calendar';
+import { objectiveText } from '../../lib/format';
+import { turnLabel, type Year } from '../../lib/turn';
+
+export function getStaticPaths() {
+  return characters.map((c) => ({ params: { id: c.id }, props: { character: c } }));
+}
+const { character } = Astro.props as { character: Character };
+const { main, alt, goal } = objectiveTurns(character);
+---
+<Base title={`${character.name} career objectives · Uma Calendar`} description={`Every career objective of ${character.name} in Umamusume (Global), turn by turn.`}>
+  <h1>{character.name}</h1>
+  <p class="muted">Versions in Global: {character.versions.join(', ')}</p>
+  {character.objectives.length > 0 && character.objectives.every((o) => !o.verified) && (
+    <p class="muted" data-testid="unverified-note">Objectives not yet verified in-game.</p>
+  )}
+  <ol class="card objectives">
+    {character.objectives.map((o) => (
+      <li>
+        <a href={`/?uma=${character.id}&turn=${o.turn}`}><b>{turnLabel(o.turn)}</b></a> · {objectiveText(o, racesById)}{!o.verified && <span class="badge-unverified">unverified</span>}
+        {o.kind === 'race' && o.alternatives.map((a) => (
+          <div class="muted">Alternative: {turnLabel(a.turn)} · {a.raceIds.map((id) => racesById.get(id)?.name ?? id).join(', ')}</div>
+        ))}
+      </li>
+    ))}
+  </ol>
+  <div class="static-years">
+    {([1, 2, 3] as Year[]).map((y) => (
+      <div class="calendar__year is-active">
+        <YearGrid year={y} races={races} selected={null} main={main} alt={alt} goal={goal} hrefFor={(t) => `/?uma=${character.id}&turn=${t}`} />
+      </div>
+    ))}
+  </div>
+</Base>
+<style>
+  .objectives { padding-left: 32px; } .objectives li { padding: 4px 0; overflow-wrap: anywhere; }
+  .static-years { display: grid; gap: 12px; margin-top: 12px; }
+  .static-years :global(.year__title) { display: block; }
+  @media (min-width: 900px) { .static-years { grid-template-columns: repeat(3, 1fr); } }
+</style>

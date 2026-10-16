@@ -1,0 +1,8 @@
+---
+import Base from '../../layouts/Base.astro';
+import { characters } from '../../data';
+---
+<Base title="All Umas · Uma Calendar" description="Career objectives of every Uma released in Umamusume Global.">
+  <h1>Umas</h1>
+  <p>{characters.map((c) => <a class="chip" href={`/characters/${c.id}/`}>{c.name}</a>)}</p>
+</Base>

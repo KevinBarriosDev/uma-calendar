@@ -1,0 +1,58 @@
+.calendar { min-width: 0; }
+.calendar.has-detail { padding-bottom: 72vh; } /* la hoja fija no tapa los meses de abajo */
+.calendar__controls { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; margin-bottom: 8px; }
+.picker { display: flex; flex-wrap: wrap; gap: 6px; align-items: center; flex: 1 1 220px; min-width: 0; }
+.picker input { flex: 1; min-width: 0; padding: 8px 10px; border-radius: 10px; border: 1px solid var(--surface-2); background: var(--surface); color: var(--text); font: inherit; }
+.picker button, .detail__close { border: 0; background: var(--surface-2); color: var(--text); border-radius: 8px; padding: 6px 10px; font: inherit; cursor: pointer; }
+.tabs { display: flex; gap: 4px; width: 100%; }
+.tabs button { flex: 1; border: 0; border-radius: 10px 10px 0 0; padding: 8px 0; font: inherit; font-weight: 700; background: var(--surface-2); color: var(--text-muted); cursor: pointer; }
+.tabs button[aria-selected='true'] { background: var(--header-bottom); color: var(--on-brand); }
+
+.calendar__year { display: none; min-width: 0; }
+.calendar__year.is-active { display: block; }
+.year__title { display: none; margin: 0 0 6px; font-size: 15px; color: var(--brand-strong); text-align: center; }
+.year__grid { display: grid; grid-template-columns: 40px minmax(0, 1fr) minmax(0, 1fr); gap: 4px; }
+.year__row { display: contents; }
+.year__head, .year__month { font-size: 12px; font-weight: 700; color: var(--brand-strong); display: flex; align-items: center; justify-content: center; }
+.cell {
+  display: flex; flex-wrap: wrap; gap: 2px; align-items: center; align-content: center;
+  min-height: 36px; min-width: 0; padding: 4px; border: 0; border-radius: 8px;
+  background: var(--surface); box-shadow: var(--shadow); color: inherit; font: inherit; text-decoration: none; cursor: pointer;
+}
+.cell .grade { min-width: 0; }
+.cell.is-objective { background: var(--objective); }
+.cell.is-alt { background: var(--objective-alt); border: 2px dashed var(--alt-border); padding: 2px; }
+.cell.is-goal { background: var(--goal); box-shadow: inset 0 -4px 0 var(--goal-edge); }
+.legend { display: flex; flex-wrap: wrap; gap: 4px 14px; margin: 0; font-size: 13px; flex-basis: 100%; }
+.legend span { display: inline-flex; align-items: center; gap: 6px; }
+.legend i { display: inline-block; width: 18px; height: 14px; border-radius: 4px; background: var(--surface); box-sizing: border-box; }
+.legend .is-objective { background: var(--objective); }
+.legend .is-alt { background: var(--objective-alt); border: 2px dashed var(--alt-border); }
+.legend .is-goal { background: var(--goal); box-shadow: inset 0 -4px 0 var(--goal-edge); }
+.cell.is-selected { outline: 3px solid var(--selected); outline-offset: -1px; }
+.cell:focus-visible { outline: 3px solid var(--brand-strong); }
+
+/* Celular: el detalle es una hoja que sube desde abajo. */
+.detail { position: fixed; left: 0; right: 0; bottom: 0; max-height: 70vh; overflow-y: auto; border-radius: 18px 18px 0 0; box-shadow: 0 -4px 16px rgb(0 0 0 / .18); z-index: 10; }
+.detail__head { display: flex; justify-content: space-between; align-items: center; gap: 8px; }
+.detail h2 { margin: 0; font-size: 16px; color: var(--brand-strong); }
+.detail h3 { margin: 12px 0 4px; font-size: 14px; }
+.races { list-style: none; margin: 8px 0 0; padding: 0; }
+.races li { display: flex; gap: 8px; align-items: flex-start; padding: 6px 0; border-bottom: 1px solid var(--surface-2); }
+.races li > div { min-width: 0; overflow-wrap: anywhere; }
+.races b { display: block; }
+.races .muted, .who__goal { display: block; font-size: 13px; }
+.who { margin-bottom: 4px; overflow-wrap: anywhere; }
+
+/* Escritorio: 3 años juntos y el detalle al costado. */
+@media (min-width: 900px) {
+  .calendar.has-detail { padding-bottom: 0; }
+  .tabs { display: none; }
+  .calendar { display: grid; grid-template-columns: 1fr 340px; gap: 12px; align-items: start; }
+  .calendar__controls { grid-column: 1 / -1; }
+  .calendar__years { display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; min-width: 0; }
+  .calendar__year { display: block; }
+  .year__title { display: block; }
+  .detail { position: sticky; top: 12px; max-height: calc(100vh - 24px); border-radius: var(--radius); box-shadow: var(--shadow); }
+  .calendar:not(.has-detail) .calendar__years { grid-column: 1 / -1; }
+}

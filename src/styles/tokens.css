@@ -1,0 +1,41 @@
+/* Estilo inicial inspirado en el juego. Todo color sale de acá. */
+:root {
+  --bg: #f4f7f2;
+  --surface: #ffffff;
+  --surface-2: #eef2ea;
+  --text: #333a33;
+  --text-muted: #5c655c;
+  --brand: #6bb83a;
+  --brand-strong: #2f6414;
+  --brand-top: #8fd14f;
+  --header-top: #3f7f1f;
+  --header-bottom: #2f6414;
+  --on-brand: #ffffff;
+  --on-grade: #ffffff;
+  --selected: #ff9f1c;
+  --objective: #ffe2b3;
+  --objective-alt: #fff2dc;
+  --alt-border: #b86e00;
+  --goal: #dfeaff;
+  --goal-edge: #2a64d0;
+  --busy: #ffe3e3;
+  /* Marca de dato sin verificar: texto oscuro sobre ámbar claro (>= 4.5:1). */
+  --unverified-bg: #ffecb3; --unverified-text: #5c3d00; --unverified-border: #b86e00;
+  /* Fondos de chips de grado: oscuros para que el texto blanco llegue a 4.5:1 en ambos temas. */
+  --g1: #2a64d0; --g2: #b0295a; --g3: #2b7a3d; --op: #9a5600; --pre-op: #5b616b; --debut: #7e3fb0;
+  --radius: 12px;
+  --shadow: 0 1px 0 #dfe6da;
+  color-scheme: light;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #151a15; --surface: #1f261f; --surface-2: #283128;
+    --text: #e6ece6; --text-muted: #9aa59a;
+    --brand: #5aa52c; --brand-strong: #8fd14f; --brand-top: #6bb83a;
+    --objective: #6a4a12; --objective-alt: #3e3220; --busy: #4a2626;
+    --unverified-bg: #4a3a10; --unverified-text: #f5dc9a; --unverified-border: #e0a040;
+    --alt-border: #e0a040; --goal: #1f3556; --goal-edge: #6fa0ff;
+    --shadow: 0 1px 0 #0c0f0c;
+    color-scheme: dark;
+  }
+}

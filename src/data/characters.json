@@ -1,0 +1,526 @@
+[
+ {
+  "id": "fine-motion",
+  "name": "Fine Motion",
+  "releasedGlobal": "2026-01-15",
+  "versions": [
+   "[Noble Seamair]",
+   "[Titania]"
+  ],
+  "objectives": [
+   {
+    "kind": "race",
+    "order": 1,
+    "turn": 12,
+    "verified": false,
+    "raceIds": [
+     "junior-make-debut"
+    ],
+    "place": 0,
+    "alternatives": []
+   },
+   {
+    "kind": "race",
+    "order": 2,
+    "turn": 44,
+    "verified": false,
+    "raceIds": [
+     "shuka-sho"
+    ],
+    "place": 1,
+    "alternatives": []
+   },
+   {
+    "kind": "race",
+    "order": 3,
+    "turn": 45,
+    "verified": false,
+    "raceIds": [
+     "queen-elizabeth-cup"
+    ],
+    "place": 1,
+    "alternatives": []
+   },
+   {
+    "kind": "race",
+    "order": 4,
+    "turn": 57,
+    "verified": false,
+    "raceIds": [
+     "victoria-mile"
+    ],
+    "place": 3,
+    "alternatives": []
+   },
+   {
+    "kind": "race",
+    "order": 5,
+    "turn": 70,
+    "verified": false,
+    "raceIds": [
+     "mile-championship"
+    ],
+    "place": 1,
+    "alternatives": []
+   }
+  ],
+  "verified": false
+ },
+ {
+  "id": "mejiro-mcqueen",
+  "name": "Mejiro McQueen",
+  "releasedGlobal": "2025-06-26",
+  "versions": [
+   "[Frontline Elegance]",
+   "[End of the Skies]",
+   "[Fair Lady of the Waves]"
+  ],
+  "objectives": [
+   {
+    "kind": "race",
+    "order": 1,
+    "turn": 12,
+    "verified": false,
+    "raceIds": [
+     "junior-make-debut"
+    ],
+    "place": 0,
+    "alternatives": []
+   },
+   {
+    "kind": "race",
+    "order": 2,
+    "turn": 44,
+    "verified": false,
+    "raceIds": [
+     "kikuka-sho"
+    ],
+    "place": 1,
+    "alternatives": []
+   },
+   {
+    "kind": "race",
+    "order": 3,
+    "turn": 57,
+    "verified": false,
+    "raceIds": [
+     "tenno-sho-spring"
+    ],
+    "place": 1,
+    "alternatives": []
+   },
+   {
+    "kind": "race",
+    "order": 4,
+    "turn": 60,
+    "verified": false,
+    "raceIds": [
+     "takarazuka-kinen"
+    ],
+    "place": 3,
+    "alternatives": []
+   },
+   {
+    "kind": "race",
+    "order": 5,
+    "turn": 68,
+    "verified": false,
+    "raceIds": [
+     "tenno-sho-autumn"
+    ],
+    "place": 1,
+    "alternatives": []
+   }
+  ],
+  "verified": false
+ },
+ {
+  "id": "special-week",
+  "name": "Special Week",
+  "releasedGlobal": "2025-06-26",
+  "versions": [
+   "[Special Dreamer]",
+   "[Hopp'n♪Happy Heart]"
+  ],
+  "objectives": [
+   {
+    "kind": "race",
+    "order": 1,
+    "turn": 12,
+    "verified": false,
+    "raceIds": [
+     "junior-make-debut"
+    ],
+    "place": 0,
+    "alternatives": []
+   },
+   {
+    "kind": "race",
+    "order": 2,
+    "turn": 31,
+    "verified": false,
+    "raceIds": [
+     "satsuki-sho"
+    ],
+    "place": 3,
+    "alternatives": []
+   },
+   {
+    "kind": "race",
+    "order": 3,
+    "turn": 34,
+    "verified": false,
+    "raceIds": [
+     "tokyo-yushun-japanese-derby"
+    ],
+    "place": 1,
+    "alternatives": []
+   },
+   {
+    "kind": "race",
+    "order": 4,
+    "turn": 44,
+    "verified": false,
+    "raceIds": [
+     "kikuka-sho"
+    ],
+    "place": 5,
+    "alternatives": []
+   },
+   {
+    "kind": "race",
+    "order": 5,
+    "turn": 46,
+    "verified": false,
+    "raceIds": [
+     "japan-cup"
+    ],
+    "place": 3,
+    "alternatives": []
+   },
+   {
+    "kind": "race",
+    "order": 6,
+    "turn": 57,
+    "verified": false,
+    "raceIds": [
+     "tenno-sho-spring"
+    ],
+    "place": 1,
+    "alternatives": []
+   },
+   {
+    "kind": "race",
+    "order": 7,
+    "turn": 60,
+    "verified": false,
+    "raceIds": [
+     "takarazuka-kinen"
+    ],
+    "place": 3,
+    "alternatives": []
+   },
+   {
+    "kind": "race",
+    "order": 8,
+    "turn": 68,
+    "verified": false,
+    "raceIds": [
+     "tenno-sho-autumn"
+    ],
+    "place": 1,
+    "alternatives": []
+   },
+   {
+    "kind": "race",
+    "order": 9,
+    "turn": 70,
+    "verified": false,
+    "raceIds": [
+     "japan-cup"
+    ],
+    "place": 1,
+    "alternatives": []
+   }
+  ],
+  "verified": false
+ },
+ {
+  "id": "symboli-rudolf",
+  "name": "Symboli Rudolf",
+  "releasedGlobal": "2025-06-26",
+  "versions": [
+   "[Emperor's Path]",
+   "[Archer by Moonlight]"
+  ],
+  "objectives": [
+   {
+    "kind": "race",
+    "order": 1,
+    "turn": 12,
+    "verified": false,
+    "raceIds": [
+     "junior-make-debut"
+    ],
+    "place": 0,
+    "alternatives": []
+   },
+   {
+    "kind": "race",
+    "order": 2,
+    "turn": 31,
+    "verified": false,
+    "raceIds": [
+     "satsuki-sho"
+    ],
+    "place": 1,
+    "alternatives": []
+   },
+   {
+    "kind": "race",
+    "order": 3,
+    "turn": 34,
+    "verified": false,
+    "raceIds": [
+     "tokyo-yushun-japanese-derby"
+    ],
+    "place": 1,
+    "alternatives": []
+   },
+   {
+    "kind": "race",
+    "order": 4,
+    "turn": 44,
+    "verified": false,
+    "raceIds": [
+     "kikuka-sho"
+    ],
+    "place": 1,
+    "alternatives": []
+   },
+   {
+    "kind": "race",
+    "order": 5,
+    "turn": 48,
+    "verified": false,
+    "raceIds": [
+     "arima-kinen"
+    ],
+    "place": 1,
+    "alternatives": []
+   },
+   {
+    "kind": "race",
+    "order": 6,
+    "turn": 57,
+    "verified": false,
+    "raceIds": [
+     "tenno-sho-spring"
+    ],
+    "place": 1,
+    "alternatives": []
+   },
+   {
+    "kind": "race",
+    "order": 7,
+    "turn": 70,
+    "verified": false,
+    "raceIds": [
+     "japan-cup"
+    ],
+    "place": 1,
+    "alternatives": []
+   },
+   {
+    "kind": "race",
+    "order": 8,
+    "turn": 72,
+    "verified": false,
+    "raceIds": [
+     "arima-kinen"
+    ],
+    "place": 1,
+    "alternatives": []
+   }
+  ],
+  "verified": false
+ },
+ {
+  "id": "taiki-shuttle",
+  "name": "Taiki Shuttle",
+  "releasedGlobal": "2025-06-26",
+  "versions": [
+   "[Wild Frontier]",
+   "[Bubblegum☆Memories]"
+  ],
+  "objectives": [
+   {
+    "kind": "race",
+    "order": 1,
+    "turn": 12,
+    "verified": false,
+    "raceIds": [
+     "junior-make-debut"
+    ],
+    "place": 0,
+    "alternatives": []
+   },
+   {
+    "kind": "race",
+    "order": 2,
+    "turn": 33,
+    "verified": false,
+    "raceIds": [
+     "nhk-mile-cup"
+    ],
+    "place": 3,
+    "alternatives": []
+   },
+   {
+    "kind": "race",
+    "order": 3,
+    "turn": 46,
+    "verified": false,
+    "raceIds": [
+     "mile-championship"
+    ],
+    "place": 1,
+    "alternatives": []
+   },
+   {
+    "kind": "race",
+    "order": 4,
+    "turn": 59,
+    "verified": false,
+    "raceIds": [
+     "yasuda-kinen"
+    ],
+    "place": 1,
+    "alternatives": []
+   },
+   {
+    "kind": "race",
+    "order": 5,
+    "turn": 65,
+    "verified": false,
+    "raceIds": [
+     "sprinter-stakes"
+    ],
+    "place": 1,
+    "alternatives": []
+   },
+   {
+    "kind": "race",
+    "order": 6,
+    "turn": 70,
+    "verified": false,
+    "raceIds": [
+     "mile-championship"
+    ],
+    "place": 1,
+    "alternatives": []
+   }
+  ],
+  "verified": false
+ },
+ {
+  "id": "tokai-teio",
+  "name": "Tokai Teio",
+  "releasedGlobal": "2025-06-26",
+  "versions": [
+   "[Peak Joy]",
+   "[Beyond the Horizon]"
+  ],
+  "objectives": [
+   {
+    "kind": "race",
+    "order": 1,
+    "turn": 12,
+    "verified": false,
+    "raceIds": [
+     "junior-make-debut"
+    ],
+    "place": 0,
+    "alternatives": []
+   },
+   {
+    "kind": "race",
+    "order": 2,
+    "turn": 30,
+    "verified": false,
+    "raceIds": [
+     "wakaba-stakes"
+    ],
+    "place": 3,
+    "alternatives": []
+   },
+   {
+    "kind": "race",
+    "order": 3,
+    "turn": 31,
+    "verified": false,
+    "raceIds": [
+     "satsuki-sho"
+    ],
+    "place": 1,
+    "alternatives": []
+   },
+   {
+    "kind": "race",
+    "order": 4,
+    "turn": 34,
+    "verified": false,
+    "raceIds": [
+     "tokyo-yushun-japanese-derby"
+    ],
+    "place": 1,
+    "alternatives": []
+   },
+   {
+    "kind": "race",
+    "order": 5,
+    "turn": 54,
+    "verified": false,
+    "raceIds": [
+     "osaka-hai"
+    ],
+    "place": 1,
+    "alternatives": []
+   },
+   {
+    "kind": "race",
+    "order": 6,
+    "turn": 57,
+    "verified": false,
+    "raceIds": [
+     "tenno-sho-spring"
+    ],
+    "place": 5,
+    "alternatives": []
+   },
+   {
+    "kind": "race",
+    "order": 7,
+    "turn": 70,
+    "verified": false,
+    "raceIds": [
+     "japan-cup"
+    ],
+    "place": 1,
+    "alternatives": []
+   },
+   {
+    "kind": "race",
+    "order": 8,
+    "turn": 72,
+    "verified": false,
+    "raceIds": [
+     "arima-kinen"
+    ],
+    "place": 1,
+    "alternatives": []
+   }
+  ],
+  "verified": false
+ }
+]
