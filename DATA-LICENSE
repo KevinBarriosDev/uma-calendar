@@ -9,8 +9,10 @@ turnos) proviene de la tabla "G1 Races Calendar" de umamusu.wiki
 (https://umamusu.wiki), también bajo CC BY-SA 4.0. Los datos se cargaron a mano,
 con cambios de formato y de organización.
 
-Los objetivos de cada Uma los cargó el autor a mano y los confirma contra el
-juego; mientras no estén confirmados llevan "verificar": true.
+Los objetivos de las Umas y algunas carreras (grado, hipódromo, sentido y turnos de
+las que no son G1) provienen de la Umamusume Wiki en Fandom
+(https://umamusume.fandom.com), bajo CC BY-SA. Los objetivos que todavía no están
+confirmados llevan "verificar": true.
 
 Esta licencia cubre solo los datos. El código del proyecto tiene su propia licencia
 y los nombres y marcas de Umamusume: Pretty Derby pertenecen a Cygames, Inc.

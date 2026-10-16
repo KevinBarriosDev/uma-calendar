@@ -51,7 +51,19 @@ describe('datos generados', () => {
 
   it('casos conocidos de Umas', () => {
     const sw = characters.find((c) => c.id === 'special-week');
-    expect(sw?.objectives.find((o) => o.kind === 'race' && o.raceIds.includes('tokyo-yushun-japanese-derby'))).toMatchObject({ turn: 34, place: 1 });
+    const race = (c: typeof sw, id: string) => c?.objectives.find((o) => o.kind === 'race' && o.raceIds.includes(id));
+    expect(race(sw, 'kisaragi-sho')).toMatchObject({ turn: 27, place: 5 });
+    expect(race(sw, 'tokyo-yushun-japanese-derby')).toMatchObject({ turn: 34, place: 5 });
+    expect(race(sw, 'arima-kinen')).toMatchObject({ turn: 72, place: 1 });
+    expect(sw?.objectives).toHaveLength(7);
+    const fm = characters.find((c) => c.id === 'fine-motion');
+    const last = fm?.objectives[9];
+    expect(last).toMatchObject({ kind: 'race', turn: 68, place: 1 });
+    expect(last?.kind === 'race' ? last.alternatives.map((a) => a.turn) : []).toEqual([69, 70, 72]);
+    const mq = characters.find((c) => c.id === 'mejiro-mcqueen');
+    expect(mq?.objectives.find((o) => o.kind === 'fans')).toMatchObject({ turn: 24 });
+    expect(racesById.get('wakaba-stakes')).toBeUndefined();
+    expect(racesById.get('sprinter-stakes')?.verified).toBe(false);
     expect(characters.map((c) => c.id)).toEqual(['fine-motion', 'mejiro-mcqueen', 'special-week', 'symboli-rudolf', 'taiki-shuttle', 'tokai-teio']);
   });
 

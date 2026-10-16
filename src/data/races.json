@@ -28,6 +28,20 @@
   "verified": true
  },
  {
+  "id": "saudi-arabia-royal-cup",
+  "name": "Saudi Arabia Royal Cup",
+  "grade": "G3",
+  "track": "Tokyo",
+  "surface": "Turf",
+  "distance": 1600,
+  "category": "Mile",
+  "direction": "Left",
+  "turns": [
+   19
+  ],
+  "verified": true
+ },
+ {
   "id": "asahi-hai-futurity-stakes",
   "name": "Asahi Hai Futurity Stakes",
   "grade": "G1",
@@ -84,18 +98,46 @@
   "verified": true
  },
  {
-  "id": "wakaba-stakes",
-  "name": "Wakaba Stakes",
+  "id": "shinzan-kinen",
+  "name": "Shinzan Kinen",
+  "grade": "G3",
+  "track": "Kyoto",
+  "surface": "Turf",
+  "distance": 1600,
+  "category": "Mile",
+  "direction": "Right",
+  "turns": [
+   25
+  ],
+  "verified": true
+ },
+ {
+  "id": "wakagoma-stakes",
+  "name": "Wakagoma Stakes",
   "grade": "OP",
-  "track": "Hanshin",
+  "track": "Kyoto",
   "surface": "Turf",
   "distance": 2000,
   "category": "Medium",
-  "direction": null,
+  "direction": "Right",
   "turns": [
-   30
+   26
   ],
-  "verified": false
+  "verified": true
+ },
+ {
+  "id": "kisaragi-sho",
+  "name": "Kisaragi Sho",
+  "grade": "G3",
+  "track": "Kyoto",
+  "surface": "Turf",
+  "distance": 1800,
+  "category": "Mile",
+  "direction": "Right",
+  "turns": [
+   27
+  ],
+  "verified": true
  },
  {
   "id": "oka-sho",
@@ -198,6 +240,20 @@
   "verified": true
  },
  {
+  "id": "unicorn-stakes",
+  "name": "Unicorn Stakes",
+  "grade": "G3",
+  "track": "Tokyo",
+  "surface": "Dirt",
+  "distance": 1600,
+  "category": "Mile",
+  "direction": "Left",
+  "turns": [
+   36
+  ],
+  "verified": true
+ },
+ {
   "id": "japan-dirt-derby",
   "name": "Japan Dirt Derby",
   "grade": "G1",
@@ -208,6 +264,21 @@
   "direction": null,
   "turns": [
    37
+  ],
+  "verified": true
+ },
+ {
+  "id": "sapporo-kinen",
+  "name": "Sapporo Kinen",
+  "grade": "G2",
+  "track": "Sapporo",
+  "surface": "Turf",
+  "distance": 2000,
+  "category": "Medium",
+  "direction": "Right",
+  "turns": [
+   40,
+   64
   ],
   "verified": true
  },
@@ -223,6 +294,20 @@
   "turns": [
    41,
    65
+  ],
+  "verified": false
+ },
+ {
+  "id": "kobe-shimbun-hai",
+  "name": "Kobe Shimbun Hai",
+  "grade": "G2",
+  "track": "Hanshin",
+  "surface": "Turf",
+  "distance": 2400,
+  "category": "Medium",
+  "direction": "Right",
+  "turns": [
+   42
   ],
   "verified": true
  },

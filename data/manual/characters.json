@@ -1,79 +1,83 @@
 [
   {
     "id": "fine-motion", "name": "Fine Motion", "releasedGlobal": "2026-01-15",
-    "versions": ["[Noble Seamair]", "[Titania]"],
+    "versions": ["[Noble Seamair]","[Titania]"],
     "objectives": [
-      { "kind": "race", "when": { "year": 1, "month": 6, "half": "late" }, "races": ["junior-make-debut"], "place": 0, "verificar": true },
-      { "kind": "race", "when": { "year": 2, "month": 10, "half": "late" }, "races": ["shuka-sho"], "place": 1, "verificar": true },
-      { "kind": "race", "when": { "year": 2, "month": 11, "half": "early" }, "races": ["queen-elizabeth-cup"], "place": 1, "verificar": true },
-      { "kind": "race", "when": { "year": 3, "month": 5, "half": "early" }, "races": ["victoria-mile"], "place": 3, "verificar": true },
-      { "kind": "race", "when": { "year": 3, "month": 11, "half": "late" }, "races": ["mile-championship"], "place": 1, "verificar": true }
+      {"kind": "race", "when": {"year": 1, "month": 6, "half": "late"}, "races": ["junior-make-debut"], "place": 0, "verificar": false},
+      {"kind": "fans", "when": {"year": 1, "month": 12, "half": "late"}, "fans": 3000, "verificar": false},
+      {"kind": "race", "when": {"year": 2, "month": 4, "half": "early"}, "races": ["oka-sho"], "place": 5, "verificar": false},
+      {"kind": "race", "when": {"year": 2, "month": 5, "half": "late"}, "races": ["japanese-oaks"], "place": 5, "verificar": false},
+      {"kind": "race", "when": {"year": 2, "month": 10, "half": "late"}, "races": ["shuka-sho"], "place": 3, "verificar": false},
+      {"kind": "race", "when": {"year": 2, "month": 11, "half": "early"}, "races": ["queen-elizabeth-cup"], "place": 3, "verificar": false},
+      {"kind": "race", "when": {"year": 3, "month": 3, "half": "late"}, "races": ["osaka-hai"], "place": 3, "verificar": false},
+      {"kind": "race", "when": {"year": 3, "month": 6, "half": "late"}, "races": ["takarazuka-kinen"], "place": 3, "verificar": false},
+      {"kind": "race", "when": {"year": 3, "month": 8, "half": "late"}, "races": ["sapporo-kinen"], "place": 3, "verificar": false},
+      {"kind": "race", "when": {"year": 3, "month": 10, "half": "late"}, "races": ["tenno-sho-autumn"], "place": 1, "alternatives": [{"when": {"year": 3, "month": 11, "half": "early"}, "races": ["queen-elizabeth-cup"]},{"when": {"year": 3, "month": 11, "half": "late"}, "races": ["mile-championship"]},{"when": {"year": 3, "month": 12, "half": "late"}, "races": ["arima-kinen"]}], "verificar": false}
     ]
   },
   {
     "id": "mejiro-mcqueen", "name": "Mejiro McQueen", "releasedGlobal": "2025-06-26",
-    "versions": ["[Frontline Elegance]", "[End of the Skies]", "[Fair Lady of the Waves]"],
+    "versions": ["[Frontline Elegance]","[End of the Skies]","[Fair Lady of the Waves]"],
     "objectives": [
-      { "kind": "race", "when": { "year": 1, "month": 6, "half": "late" }, "races": ["junior-make-debut"], "place": 0, "verificar": true },
-      { "kind": "race", "when": { "year": 2, "month": 10, "half": "late" }, "races": ["kikuka-sho"], "place": 1, "verificar": true },
-      { "kind": "race", "when": { "year": 3, "month": 5, "half": "early" }, "races": ["tenno-sho-spring"], "place": 1, "verificar": true },
-      { "kind": "race", "when": { "year": 3, "month": 6, "half": "late" }, "races": ["takarazuka-kinen"], "place": 3, "verificar": true },
-      { "kind": "race", "when": { "year": 3, "month": 10, "half": "late" }, "races": ["tenno-sho-autumn"], "place": 1, "verificar": true }
+      {"kind": "race", "when": {"year": 1, "month": 6, "half": "late"}, "races": ["junior-make-debut"], "place": 0, "verificar": false},
+      {"kind": "fans", "when": {"year": 1, "month": 12, "half": "late"}, "fans": 3000, "verificar": false},
+      {"kind": "race", "when": {"year": 2, "month": 9, "half": "late"}, "races": ["kobe-shimbun-hai"], "place": 3, "verificar": false},
+      {"kind": "race", "when": {"year": 2, "month": 10, "half": "late"}, "races": ["kikuka-sho"], "place": 3, "verificar": false},
+      {"kind": "race", "when": {"year": 3, "month": 5, "half": "early"}, "races": ["tenno-sho-spring"], "place": 1, "verificar": false},
+      {"kind": "race", "when": {"year": 3, "month": 6, "half": "late"}, "races": ["takarazuka-kinen"], "place": 2, "verificar": false},
+      {"kind": "race", "when": {"year": 3, "month": 10, "half": "late"}, "races": ["tenno-sho-autumn"], "place": 1, "verificar": false}
     ]
   },
   {
     "id": "special-week", "name": "Special Week", "releasedGlobal": "2025-06-26",
-    "versions": ["[Special Dreamer]", "[Hopp'n♪Happy Heart]"],
+    "versions": ["[Special Dreamer]","[Hopp'n♪Happy Heart]"],
     "objectives": [
-      { "kind": "race", "when": { "year": 1, "month": 6, "half": "late" }, "races": ["junior-make-debut"], "place": 0, "verificar": true },
-      { "kind": "race", "when": { "year": 2, "month": 4, "half": "early" }, "races": ["satsuki-sho"], "place": 3, "verificar": true },
-      { "kind": "race", "when": { "year": 2, "month": 5, "half": "late" }, "races": ["tokyo-yushun-japanese-derby"], "place": 1, "verificar": true },
-      { "kind": "race", "when": { "year": 2, "month": 10, "half": "late" }, "races": ["kikuka-sho"], "place": 5, "verificar": true },
-      { "kind": "race", "when": { "year": 2, "month": 11, "half": "late" }, "races": ["japan-cup"], "place": 3, "verificar": true },
-      { "kind": "race", "when": { "year": 3, "month": 5, "half": "early" }, "races": ["tenno-sho-spring"], "place": 1, "verificar": true },
-      { "kind": "race", "when": { "year": 3, "month": 6, "half": "late" }, "races": ["takarazuka-kinen"], "place": 3, "verificar": true },
-      { "kind": "race", "when": { "year": 3, "month": 10, "half": "late" }, "races": ["tenno-sho-autumn"], "place": 1, "verificar": true },
-      { "kind": "race", "when": { "year": 3, "month": 11, "half": "late" }, "races": ["japan-cup"], "place": 1, "verificar": true }
+      {"kind": "race", "when": {"year": 1, "month": 6, "half": "late"}, "races": ["junior-make-debut"], "place": 0, "verificar": false},
+      {"kind": "race", "when": {"year": 2, "month": 2, "half": "early"}, "races": ["kisaragi-sho"], "place": 5, "verificar": false},
+      {"kind": "race", "when": {"year": 2, "month": 5, "half": "late"}, "races": ["tokyo-yushun-japanese-derby"], "place": 5, "verificar": false},
+      {"kind": "race", "when": {"year": 2, "month": 10, "half": "late"}, "races": ["kikuka-sho"], "place": 3, "verificar": false},
+      {"kind": "race", "when": {"year": 3, "month": 5, "half": "early"}, "races": ["tenno-sho-spring"], "place": 3, "verificar": false},
+      {"kind": "race", "when": {"year": 3, "month": 11, "half": "late"}, "races": ["japan-cup"], "place": 2, "verificar": false},
+      {"kind": "race", "when": {"year": 3, "month": 12, "half": "late"}, "races": ["arima-kinen"], "place": 1, "verificar": false}
     ]
   },
   {
     "id": "symboli-rudolf", "name": "Symboli Rudolf", "releasedGlobal": "2025-06-26",
-    "versions": ["[Emperor's Path]", "[Archer by Moonlight]"],
+    "versions": ["[Emperor's Path]","[Archer by Moonlight]"],
     "objectives": [
-      { "kind": "race", "when": { "year": 1, "month": 6, "half": "late" }, "races": ["junior-make-debut"], "place": 0, "verificar": true },
-      { "kind": "race", "when": { "year": 2, "month": 4, "half": "early" }, "races": ["satsuki-sho"], "place": 1, "verificar": true },
-      { "kind": "race", "when": { "year": 2, "month": 5, "half": "late" }, "races": ["tokyo-yushun-japanese-derby"], "place": 1, "verificar": true },
-      { "kind": "race", "when": { "year": 2, "month": 10, "half": "late" }, "races": ["kikuka-sho"], "place": 1, "verificar": true },
-      { "kind": "race", "when": { "year": 2, "month": 12, "half": "late" }, "races": ["arima-kinen"], "place": 1, "verificar": true },
-      { "kind": "race", "when": { "year": 3, "month": 5, "half": "early" }, "races": ["tenno-sho-spring"], "place": 1, "verificar": true },
-      { "kind": "race", "when": { "year": 3, "month": 11, "half": "late" }, "races": ["japan-cup"], "place": 1, "verificar": true },
-      { "kind": "race", "when": { "year": 3, "month": 12, "half": "late" }, "races": ["arima-kinen"], "place": 1, "verificar": true }
+      {"kind": "race", "when": {"year": 1, "month": 6, "half": "late"}, "races": ["junior-make-debut"], "place": 0, "verificar": true},
+      {"kind": "race", "when": {"year": 1, "month": 10, "half": "early"}, "races": ["saudi-arabia-royal-cup"], "place": 5, "verificar": true},
+      {"kind": "race", "when": {"year": 2, "month": 4, "half": "early"}, "races": ["satsuki-sho"], "place": 5, "verificar": true},
+      {"kind": "race", "when": {"year": 2, "month": 5, "half": "late"}, "races": ["tokyo-yushun-japanese-derby"], "place": 5, "verificar": true},
+      {"kind": "race", "when": {"year": 2, "month": 10, "half": "late"}, "races": ["kikuka-sho"], "place": 3, "verificar": true},
+      {"kind": "race", "when": {"year": 3, "month": 5, "half": "early"}, "races": ["tenno-sho-spring"], "place": 3, "verificar": true},
+      {"kind": "race", "when": {"year": 3, "month": 11, "half": "late"}, "races": ["japan-cup"], "place": 2, "verificar": true}
     ]
   },
   {
     "id": "taiki-shuttle", "name": "Taiki Shuttle", "releasedGlobal": "2025-06-26",
-    "versions": ["[Wild Frontier]", "[Bubblegum☆Memories]"],
+    "versions": ["[Wild Frontier]","[Bubblegum☆Memories]"],
     "objectives": [
-      { "kind": "race", "when": { "year": 1, "month": 6, "half": "late" }, "races": ["junior-make-debut"], "place": 0, "verificar": true },
-      { "kind": "race", "when": { "year": 2, "month": 5, "half": "early" }, "races": ["nhk-mile-cup"], "place": 3, "verificar": true },
-      { "kind": "race", "when": { "year": 2, "month": 11, "half": "late" }, "races": ["mile-championship"], "place": 1, "verificar": true },
-      { "kind": "race", "when": { "year": 3, "month": 6, "half": "early" }, "races": ["yasuda-kinen"], "place": 1, "verificar": true },
-      { "kind": "race", "when": { "year": 3, "month": 9, "half": "early" }, "races": ["sprinter-stakes"], "place": 1, "verificar": true },
-      { "kind": "race", "when": { "year": 3, "month": 11, "half": "late" }, "races": ["mile-championship"], "place": 1, "verificar": true }
+      {"kind": "race", "when": {"year": 1, "month": 6, "half": "late"}, "races": ["junior-make-debut"], "place": 0, "verificar": true},
+      {"kind": "race", "when": {"year": 2, "month": 1, "half": "early"}, "races": ["shinzan-kinen"], "place": 5, "verificar": true},
+      {"kind": "race", "when": {"year": 2, "month": 5, "half": "early"}, "races": ["nhk-mile-cup"], "place": 5, "verificar": true},
+      {"kind": "race", "when": {"year": 2, "month": 6, "half": "late"}, "races": ["unicorn-stakes"], "place": 5, "verificar": true},
+      {"kind": "race", "when": {"year": 3, "month": 6, "half": "early"}, "races": ["yasuda-kinen"], "place": 1, "verificar": true},
+      {"kind": "race", "when": {"year": 3, "month": 9, "half": "early"}, "races": ["sprinter-stakes"], "place": 1, "verificar": true}
     ]
   },
   {
     "id": "tokai-teio", "name": "Tokai Teio", "releasedGlobal": "2025-06-26",
-    "versions": ["[Peak Joy]", "[Beyond the Horizon]"],
+    "versions": ["[Peak Joy]","[Beyond the Horizon]"],
     "objectives": [
-      { "kind": "race", "when": { "year": 1, "month": 6, "half": "late" }, "races": ["junior-make-debut"], "place": 0, "verificar": true },
-      { "kind": "race", "when": { "year": 2, "month": 3, "half": "late" }, "races": ["wakaba-stakes"], "place": 3, "verificar": true },
-      { "kind": "race", "when": { "year": 2, "month": 4, "half": "early" }, "races": ["satsuki-sho"], "place": 1, "verificar": true },
-      { "kind": "race", "when": { "year": 2, "month": 5, "half": "late" }, "races": ["tokyo-yushun-japanese-derby"], "place": 1, "verificar": true },
-      { "kind": "race", "when": { "year": 3, "month": 3, "half": "late" }, "races": ["osaka-hai"], "place": 1, "verificar": true },
-      { "kind": "race", "when": { "year": 3, "month": 5, "half": "early" }, "races": ["tenno-sho-spring"], "place": 5, "verificar": true },
-      { "kind": "race", "when": { "year": 3, "month": 11, "half": "late" }, "races": ["japan-cup"], "place": 1, "verificar": true },
-      { "kind": "race", "when": { "year": 3, "month": 12, "half": "late" }, "races": ["arima-kinen"], "place": 1, "verificar": true }
+      {"kind": "race", "when": {"year": 1, "month": 6, "half": "late"}, "races": ["junior-make-debut"], "place": 0, "verificar": false},
+      {"kind": "race", "when": {"year": 2, "month": 1, "half": "late"}, "races": ["wakagoma-stakes"], "place": 3, "verificar": false},
+      {"kind": "race", "when": {"year": 2, "month": 4, "half": "early"}, "races": ["satsuki-sho"], "place": 5, "verificar": false},
+      {"kind": "race", "when": {"year": 2, "month": 5, "half": "late"}, "races": ["tokyo-yushun-japanese-derby"], "place": 5, "verificar": false},
+      {"kind": "race", "when": {"year": 2, "month": 10, "half": "late"}, "races": ["kikuka-sho"], "place": 3, "verificar": false},
+      {"kind": "race", "when": {"year": 3, "month": 5, "half": "early"}, "races": ["tenno-sho-spring"], "place": 3, "verificar": false},
+      {"kind": "race", "when": {"year": 3, "month": 11, "half": "late"}, "races": ["japan-cup"], "place": 2, "verificar": false},
+      {"kind": "race", "when": {"year": 3, "month": 12, "half": "late"}, "races": ["arima-kinen"], "place": 1, "verificar": false}
     ]
   }
 ]

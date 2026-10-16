@@ -16,7 +16,7 @@
 ## Datos
 
 - **Carreras**: tabla "G1 Races Calendar" de [umamusu.wiki](https://umamusu.wiki) (CC BY-SA 4.0), cargada a mano en `data/manual/races.json` (`year` 1-3, `month`, `half` `early`/`late`; la categoría se deriva de `distance`).
-- **Objetivos de las Umas**: los carga el autor a mano en `data/manual/characters.json`. Los objetivos van en orden (la posición es el `order`); las alternativas son `alternatives: [{ when, races }]`. Los objetivos son por Uma (las versiones comparten objetivos).
+- **Objetivos de las Umas**: vienen de la wiki de Fandom (páginas de trainee, sección "Objectives", y páginas de carrera, "Character Goals (Game)"; el turno sale del calendario de la carrera) y se cargan a mano en `data/manual/characters.json`. Las carreras que no son G1 salen de la infobox de Fandom (`source: "umamusu.fandom.com"`). Si dos wikis discrepan, la carrera queda en `verificar: true` hasta confirmarla en el juego. Los objetivos van en orden (la posición es el `order`); las alternativas son `alternatives: [{ when, races }]`. Los objetivos son por Uma (las versiones comparten objetivos).
 - **Cargar una Uma**: agregar la entrada en `characters.json` con `"verificar": true` en cada objetivo, correr `npm run data:build` y revisar el diff de `src/data/`.
 - **Regla `verificar`**: un objetivo o carrera queda en `true` hasta confirmarlo con capturas del juego (carpeta `capturas/` de la raíz de Uma, que no se sube). Solo entonces pasa a `false`. El sitio marca lo no verificado con "unverified".
 - **Fuentes prohibidas**: no se copian datos de sitios sin permiso explícito; la fuente anterior se descartó por eso. Los archivos de datos van bajo CC BY-SA 4.0 (ver `DATA-LICENSE`).

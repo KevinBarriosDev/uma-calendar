@@ -12,7 +12,7 @@
     "kind": "race",
     "order": 1,
     "turn": 12,
-    "verified": false,
+    "verified": true,
     "raceIds": [
      "junior-make-debut"
     ],
@@ -20,51 +20,121 @@
     "alternatives": []
    },
    {
-    "kind": "race",
+    "kind": "fans",
     "order": 2,
-    "turn": 44,
-    "verified": false,
-    "raceIds": [
-     "shuka-sho"
-    ],
-    "place": 1,
-    "alternatives": []
+    "turn": 24,
+    "verified": true,
+    "fans": 3000
    },
    {
     "kind": "race",
     "order": 3,
-    "turn": 45,
-    "verified": false,
+    "turn": 31,
+    "verified": true,
     "raceIds": [
-     "queen-elizabeth-cup"
+     "oka-sho"
     ],
-    "place": 1,
+    "place": 5,
     "alternatives": []
    },
    {
     "kind": "race",
     "order": 4,
-    "turn": 57,
-    "verified": false,
+    "turn": 34,
+    "verified": true,
     "raceIds": [
-     "victoria-mile"
+     "japanese-oaks"
+    ],
+    "place": 5,
+    "alternatives": []
+   },
+   {
+    "kind": "race",
+    "order": 5,
+    "turn": 44,
+    "verified": true,
+    "raceIds": [
+     "shuka-sho"
     ],
     "place": 3,
     "alternatives": []
    },
    {
     "kind": "race",
-    "order": 5,
-    "turn": 70,
-    "verified": false,
+    "order": 6,
+    "turn": 45,
+    "verified": true,
     "raceIds": [
-     "mile-championship"
+     "queen-elizabeth-cup"
+    ],
+    "place": 3,
+    "alternatives": []
+   },
+   {
+    "kind": "race",
+    "order": 7,
+    "turn": 54,
+    "verified": true,
+    "raceIds": [
+     "osaka-hai"
+    ],
+    "place": 3,
+    "alternatives": []
+   },
+   {
+    "kind": "race",
+    "order": 8,
+    "turn": 60,
+    "verified": true,
+    "raceIds": [
+     "takarazuka-kinen"
+    ],
+    "place": 3,
+    "alternatives": []
+   },
+   {
+    "kind": "race",
+    "order": 9,
+    "turn": 64,
+    "verified": true,
+    "raceIds": [
+     "sapporo-kinen"
+    ],
+    "place": 3,
+    "alternatives": []
+   },
+   {
+    "kind": "race",
+    "order": 10,
+    "turn": 68,
+    "verified": true,
+    "raceIds": [
+     "tenno-sho-autumn"
     ],
     "place": 1,
-    "alternatives": []
+    "alternatives": [
+     {
+      "turn": 69,
+      "raceIds": [
+       "queen-elizabeth-cup"
+      ]
+     },
+     {
+      "turn": 70,
+      "raceIds": [
+       "mile-championship"
+      ]
+     },
+     {
+      "turn": 72,
+      "raceIds": [
+       "arima-kinen"
+      ]
+     }
+    ]
    }
   ],
-  "verified": false
+  "verified": true
  },
  {
   "id": "mejiro-mcqueen",
@@ -80,7 +150,7 @@
     "kind": "race",
     "order": 1,
     "turn": 12,
-    "verified": false,
+    "verified": true,
     "raceIds": [
      "junior-make-debut"
     ],
@@ -88,21 +158,39 @@
     "alternatives": []
    },
    {
-    "kind": "race",
+    "kind": "fans",
     "order": 2,
-    "turn": 44,
-    "verified": false,
-    "raceIds": [
-     "kikuka-sho"
-    ],
-    "place": 1,
-    "alternatives": []
+    "turn": 24,
+    "verified": true,
+    "fans": 3000
    },
    {
     "kind": "race",
     "order": 3,
+    "turn": 42,
+    "verified": true,
+    "raceIds": [
+     "kobe-shimbun-hai"
+    ],
+    "place": 3,
+    "alternatives": []
+   },
+   {
+    "kind": "race",
+    "order": 4,
+    "turn": 44,
+    "verified": true,
+    "raceIds": [
+     "kikuka-sho"
+    ],
+    "place": 3,
+    "alternatives": []
+   },
+   {
+    "kind": "race",
+    "order": 5,
     "turn": 57,
-    "verified": false,
+    "verified": true,
     "raceIds": [
      "tenno-sho-spring"
     ],
@@ -111,20 +199,20 @@
    },
    {
     "kind": "race",
-    "order": 4,
+    "order": 6,
     "turn": 60,
-    "verified": false,
+    "verified": true,
     "raceIds": [
      "takarazuka-kinen"
     ],
-    "place": 3,
+    "place": 2,
     "alternatives": []
    },
    {
     "kind": "race",
-    "order": 5,
+    "order": 7,
     "turn": 68,
-    "verified": false,
+    "verified": true,
     "raceIds": [
      "tenno-sho-autumn"
     ],
@@ -132,7 +220,7 @@
     "alternatives": []
    }
   ],
-  "verified": false
+  "verified": true
  },
  {
   "id": "special-week",
@@ -147,7 +235,7 @@
     "kind": "race",
     "order": 1,
     "turn": 12,
-    "verified": false,
+    "verified": true,
     "raceIds": [
      "junior-make-debut"
     ],
@@ -157,43 +245,43 @@
    {
     "kind": "race",
     "order": 2,
-    "turn": 31,
-    "verified": false,
+    "turn": 27,
+    "verified": true,
     "raceIds": [
-     "satsuki-sho"
-    ],
-    "place": 3,
-    "alternatives": []
-   },
-   {
-    "kind": "race",
-    "order": 3,
-    "turn": 34,
-    "verified": false,
-    "raceIds": [
-     "tokyo-yushun-japanese-derby"
-    ],
-    "place": 1,
-    "alternatives": []
-   },
-   {
-    "kind": "race",
-    "order": 4,
-    "turn": 44,
-    "verified": false,
-    "raceIds": [
-     "kikuka-sho"
+     "kisaragi-sho"
     ],
     "place": 5,
     "alternatives": []
    },
    {
     "kind": "race",
-    "order": 5,
-    "turn": 46,
-    "verified": false,
+    "order": 3,
+    "turn": 34,
+    "verified": true,
     "raceIds": [
-     "japan-cup"
+     "tokyo-yushun-japanese-derby"
+    ],
+    "place": 5,
+    "alternatives": []
+   },
+   {
+    "kind": "race",
+    "order": 4,
+    "turn": 44,
+    "verified": true,
+    "raceIds": [
+     "kikuka-sho"
+    ],
+    "place": 3,
+    "alternatives": []
+   },
+   {
+    "kind": "race",
+    "order": 5,
+    "turn": 57,
+    "verified": true,
+    "raceIds": [
+     "tenno-sho-spring"
     ],
     "place": 3,
     "alternatives": []
@@ -201,49 +289,27 @@
    {
     "kind": "race",
     "order": 6,
-    "turn": 57,
-    "verified": false,
+    "turn": 70,
+    "verified": true,
     "raceIds": [
-     "tenno-sho-spring"
+     "japan-cup"
     ],
-    "place": 1,
+    "place": 2,
     "alternatives": []
    },
    {
     "kind": "race",
     "order": 7,
-    "turn": 60,
-    "verified": false,
+    "turn": 72,
+    "verified": true,
     "raceIds": [
-     "takarazuka-kinen"
-    ],
-    "place": 3,
-    "alternatives": []
-   },
-   {
-    "kind": "race",
-    "order": 8,
-    "turn": 68,
-    "verified": false,
-    "raceIds": [
-     "tenno-sho-autumn"
-    ],
-    "place": 1,
-    "alternatives": []
-   },
-   {
-    "kind": "race",
-    "order": 9,
-    "turn": 70,
-    "verified": false,
-    "raceIds": [
-     "japan-cup"
+     "arima-kinen"
     ],
     "place": 1,
     "alternatives": []
    }
   ],
-  "verified": false
+  "verified": true
  },
  {
   "id": "symboli-rudolf",
@@ -268,45 +334,45 @@
    {
     "kind": "race",
     "order": 2,
-    "turn": 31,
+    "turn": 19,
     "verified": false,
     "raceIds": [
-     "satsuki-sho"
+     "saudi-arabia-royal-cup"
     ],
-    "place": 1,
+    "place": 5,
     "alternatives": []
    },
    {
     "kind": "race",
     "order": 3,
-    "turn": 34,
+    "turn": 31,
     "verified": false,
     "raceIds": [
-     "tokyo-yushun-japanese-derby"
+     "satsuki-sho"
     ],
-    "place": 1,
+    "place": 5,
     "alternatives": []
    },
    {
     "kind": "race",
     "order": 4,
-    "turn": 44,
+    "turn": 34,
     "verified": false,
     "raceIds": [
-     "kikuka-sho"
+     "tokyo-yushun-japanese-derby"
     ],
-    "place": 1,
+    "place": 5,
     "alternatives": []
    },
    {
     "kind": "race",
     "order": 5,
-    "turn": 48,
+    "turn": 44,
     "verified": false,
     "raceIds": [
-     "arima-kinen"
+     "kikuka-sho"
     ],
-    "place": 1,
+    "place": 3,
     "alternatives": []
    },
    {
@@ -317,7 +383,7 @@
     "raceIds": [
      "tenno-sho-spring"
     ],
-    "place": 1,
+    "place": 3,
     "alternatives": []
    },
    {
@@ -328,18 +394,7 @@
     "raceIds": [
      "japan-cup"
     ],
-    "place": 1,
-    "alternatives": []
-   },
-   {
-    "kind": "race",
-    "order": 8,
-    "turn": 72,
-    "verified": false,
-    "raceIds": [
-     "arima-kinen"
-    ],
-    "place": 1,
+    "place": 2,
     "alternatives": []
    }
   ],
@@ -368,28 +423,39 @@
    {
     "kind": "race",
     "order": 2,
-    "turn": 33,
+    "turn": 25,
     "verified": false,
     "raceIds": [
-     "nhk-mile-cup"
+     "shinzan-kinen"
     ],
-    "place": 3,
+    "place": 5,
     "alternatives": []
    },
    {
     "kind": "race",
     "order": 3,
-    "turn": 46,
+    "turn": 33,
     "verified": false,
     "raceIds": [
-     "mile-championship"
+     "nhk-mile-cup"
     ],
-    "place": 1,
+    "place": 5,
     "alternatives": []
    },
    {
     "kind": "race",
     "order": 4,
+    "turn": 36,
+    "verified": false,
+    "raceIds": [
+     "unicorn-stakes"
+    ],
+    "place": 5,
+    "alternatives": []
+   },
+   {
+    "kind": "race",
+    "order": 5,
     "turn": 59,
     "verified": false,
     "raceIds": [
@@ -400,22 +466,11 @@
    },
    {
     "kind": "race",
-    "order": 5,
+    "order": 6,
     "turn": 65,
     "verified": false,
     "raceIds": [
      "sprinter-stakes"
-    ],
-    "place": 1,
-    "alternatives": []
-   },
-   {
-    "kind": "race",
-    "order": 6,
-    "turn": 70,
-    "verified": false,
-    "raceIds": [
-     "mile-championship"
     ],
     "place": 1,
     "alternatives": []
@@ -436,7 +491,7 @@
     "kind": "race",
     "order": 1,
     "turn": 12,
-    "verified": false,
+    "verified": true,
     "raceIds": [
      "junior-make-debut"
     ],
@@ -446,10 +501,10 @@
    {
     "kind": "race",
     "order": 2,
-    "turn": 30,
-    "verified": false,
+    "turn": 26,
+    "verified": true,
     "raceIds": [
-     "wakaba-stakes"
+     "wakagoma-stakes"
     ],
     "place": 3,
     "alternatives": []
@@ -458,62 +513,62 @@
     "kind": "race",
     "order": 3,
     "turn": 31,
-    "verified": false,
+    "verified": true,
     "raceIds": [
      "satsuki-sho"
-    ],
-    "place": 1,
-    "alternatives": []
-   },
-   {
-    "kind": "race",
-    "order": 4,
-    "turn": 34,
-    "verified": false,
-    "raceIds": [
-     "tokyo-yushun-japanese-derby"
-    ],
-    "place": 1,
-    "alternatives": []
-   },
-   {
-    "kind": "race",
-    "order": 5,
-    "turn": 54,
-    "verified": false,
-    "raceIds": [
-     "osaka-hai"
-    ],
-    "place": 1,
-    "alternatives": []
-   },
-   {
-    "kind": "race",
-    "order": 6,
-    "turn": 57,
-    "verified": false,
-    "raceIds": [
-     "tenno-sho-spring"
     ],
     "place": 5,
     "alternatives": []
    },
    {
     "kind": "race",
+    "order": 4,
+    "turn": 34,
+    "verified": true,
+    "raceIds": [
+     "tokyo-yushun-japanese-derby"
+    ],
+    "place": 5,
+    "alternatives": []
+   },
+   {
+    "kind": "race",
+    "order": 5,
+    "turn": 44,
+    "verified": true,
+    "raceIds": [
+     "kikuka-sho"
+    ],
+    "place": 3,
+    "alternatives": []
+   },
+   {
+    "kind": "race",
+    "order": 6,
+    "turn": 57,
+    "verified": true,
+    "raceIds": [
+     "tenno-sho-spring"
+    ],
+    "place": 3,
+    "alternatives": []
+   },
+   {
+    "kind": "race",
     "order": 7,
     "turn": 70,
-    "verified": false,
+    "verified": true,
     "raceIds": [
      "japan-cup"
     ],
-    "place": 1,
+    "place": 2,
     "alternatives": []
    },
    {
     "kind": "race",
     "order": 8,
     "turn": 72,
-    "verified": false,
+    "verified": true,
     "raceIds": [
      "arima-kinen"
     ],
@@ -521,6 +576,6 @@
     "alternatives": []
    }
   ],
-  "verified": false
+  "verified": true
  }
 ]

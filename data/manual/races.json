@@ -36,12 +36,6 @@
     "source": "umamusu.wiki", "verificar": false
   },
   {
-    "id": "wakaba-stakes", "name": "Wakaba Stakes", "grade": "OP",
-    "track": "Hanshin", "surface": "Turf", "distance": 2000, "direction": null,
-    "runs": [{ "year": 2, "month": 3, "half": "late" }],
-    "source": "author", "verificar": true
-  },
-  {
     "id": "oka-sho", "name": "Oka Sho", "grade": "G1",
     "track": "Hanshin", "surface": "Turf", "distance": 1600, "direction": null,
     "runs": [{ "year": 2, "month": 4, "half": "early" }],
@@ -93,7 +87,7 @@
     "id": "sprinter-stakes", "name": "Sprinter Stakes", "grade": "G1",
     "track": "Nakayama", "surface": "Turf", "distance": 1200, "direction": null,
     "runs": [{ "year": 2, "month": 9, "half": "early" }, { "year": 3, "month": 9, "half": "early" }],
-    "source": "umamusu.wiki", "verificar": false
+    "source": "umamusu.wiki", "verificar": true
   },
   {
     "id": "mile-championship-nambu-hai", "name": "Mile Championship Nambu Hai", "grade": "G1",
@@ -220,5 +214,47 @@
     "track": "Ooi", "surface": "Dirt", "distance": 2000, "direction": null,
     "runs": [{ "year": 3, "month": 6, "half": "late" }],
     "source": "umamusu.wiki", "verificar": false
+  },
+  {
+    "id": "kisaragi-sho", "name": "Kisaragi Sho", "grade": "G3",
+    "track": "Kyoto", "surface": "Turf", "distance": 1800, "direction": "Right",
+    "runs": [{ "year": 2, "month": 2, "half": "early" }],
+    "source": "umamusu.fandom.com", "verificar": false
+  },
+  {
+    "id": "wakagoma-stakes", "name": "Wakagoma Stakes", "grade": "OP",
+    "track": "Kyoto", "surface": "Turf", "distance": 2000, "direction": "Right",
+    "runs": [{ "year": 2, "month": 1, "half": "late" }],
+    "source": "umamusu.fandom.com", "verificar": false
+  },
+  {
+    "id": "kobe-shimbun-hai", "name": "Kobe Shimbun Hai", "grade": "G2",
+    "track": "Hanshin", "surface": "Turf", "distance": 2400, "direction": "Right",
+    "runs": [{ "year": 2, "month": 9, "half": "late" }],
+    "source": "umamusu.fandom.com", "verificar": false
+  },
+  {
+    "id": "sapporo-kinen", "name": "Sapporo Kinen", "grade": "G2",
+    "track": "Sapporo", "surface": "Turf", "distance": 2000, "direction": "Right",
+    "runs": [{ "year": 2, "month": 8, "half": "late" }, { "year": 3, "month": 8, "half": "late" }],
+    "source": "umamusu.fandom.com", "verificar": false
+  },
+  {
+    "id": "saudi-arabia-royal-cup", "name": "Saudi Arabia Royal Cup", "grade": "G3",
+    "track": "Tokyo", "surface": "Turf", "distance": 1600, "direction": "Left",
+    "runs": [{ "year": 1, "month": 10, "half": "early" }],
+    "source": "umamusu.fandom.com", "verificar": false
+  },
+  {
+    "id": "shinzan-kinen", "name": "Shinzan Kinen", "grade": "G3",
+    "track": "Kyoto", "surface": "Turf", "distance": 1600, "direction": "Right",
+    "runs": [{ "year": 2, "month": 1, "half": "early" }],
+    "source": "umamusu.fandom.com", "verificar": false
+  },
+  {
+    "id": "unicorn-stakes", "name": "Unicorn Stakes", "grade": "G3",
+    "track": "Tokyo", "surface": "Dirt", "distance": 1600, "direction": "Left",
+    "runs": [{ "year": 2, "month": 6, "half": "late" }],
+    "source": "umamusu.fandom.com", "verificar": false
   }
 ]
