@@ -13,6 +13,11 @@
 7. Antes de dar algo por terminado: `npm run check && npm test && npm run e2e`.
 8. Commits a nombre del usuario, sin `Co-Authored-By` ni menciones de IA. El crédito a Claude va en **Credits** del README.
 
+## Publicación
+
+- Repo: https://github.com/KevinBarriosDev/uma-calendar (público). CI en GitHub Actions en cada push.
+- Vercel: proyecto `motionsoft05s-projects/uma-calendar`, https://uma-calendar.vercel.app. Cada push a `main` despliega a producción (config en `vercel.json`). Si cambia el subdominio, actualizar `site` en `astro.config.mjs`.
+
 ## Datos
 
 - **Carreras**: tabla "G1 Races Calendar" de [umamusu.wiki](https://umamusu.wiki) (CC BY-SA 4.0), cargada a mano en `data/manual/races.json` (`year` 1-3, `month`, `half` `early`/`late`; la categoría se deriva de `distance`).
