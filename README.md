@@ -23,6 +23,7 @@ The build stops with the file, the Uma (or race) and the field when something is
 ## Credits
 
 - Race calendar: [umamusu.wiki](https://umamusu.wiki) (CC BY-SA 4.0). Uma objectives and some races: [Umamusume Wiki on Fandom](https://umamusume.fandom.com) (CC BY-SA); objectives not yet confirmed are marked unverified. See `DATA-LICENSE`.
+- Icon: horseshoe from "Horseshoe" (Wired Gradient) by [Lordicon](https://lordicon.com), free license with attribution, combined with an original calendar.
 - Built with [Claude](https://claude.ai) (Anthropic) as a coding assistant.
 
 Fan-made project, not affiliated with Cygames. Umamusume: Pretty Derby is a trademark of Cygames, Inc. This project contains no images, icons, logos or fonts from Cygames or any other third party.

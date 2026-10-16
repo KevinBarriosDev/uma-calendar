@@ -14,6 +14,10 @@ const { title, description } = Astro.props;
     <meta property="og:title" content={title} />
     <meta property="og:description" content={description} />
     <link rel="canonical" href={new URL(Astro.url.pathname, Astro.site)} />
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link rel="icon" href="/favicon-32.png" type="image/png" sizes="32x32" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+    <meta name="theme-color" content="#2f6414" />
   </head>
   <body>
     <header class="site-header">
@@ -24,7 +28,7 @@ const { title, description } = Astro.props;
     <main><slot /></main>
     <footer class="site-footer">
       <p>Race data from <a href="https://umamusu.wiki">umamusu.wiki</a> (<a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>). Uma objectives and some races: <a href="https://umamusume.fandom.com">Umamusume Wiki on Fandom</a> (CC BY-SA); ones not yet confirmed are marked unverified (updated {meta.builtAt}).</p>
-      <p>Fan-made project. Not affiliated with Cygames. Umamusume: Pretty Derby is a trademark of Cygames, Inc.</p>
+      <p>Fan-made project. Not affiliated with Cygames. Umamusume: Pretty Derby is a trademark of Cygames, Inc. Icon includes a horseshoe by <a href="https://lordicon.com">Lordicon</a>.</p>
     </footer>
   </body>
 </html>

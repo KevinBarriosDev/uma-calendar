@@ -1,9 +1,21 @@
-<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 128 128">
-    <path d="M50.4 78.5a75.1 75.1 0 0 0-28.5 6.9l24.2-65.7c.7-2 1.9-3.2 3.4-3.2h29c1.5 0 2.7 1.2 3.4 3.2l24.2 65.7s-11.6-7-28.5-7L67 45.5c-.4-1.7-1.6-2.8-2.9-2.8-1.3 0-2.5 1.1-2.9 2.7L50.4 78.5Zm-1.1 28.2Zm-4.2-20.2c-2 6.6-.6 15.8 4.2 20.2a17.5 17.5 0 0 1 .2-.7 5.5 5.5 0 0 1 5.7-4.5c2.8.1 4.3 1.5 4.7 4.7.2 1.1.2 2.3.2 3.5v.4c0 2.7.7 5.2 2.2 7.4a13 13 0 0 0 5.7 4.9v-.3l-.2-.3c-1.8-5.6-.5-9.5 4.4-12.8l1.5-1a73 73 0 0 0 3.2-2.2 16 16 0 0 0 6.8-11.4c.3-2 .1-4-.6-6l-.8.6-1.6 1a37 37 0 0 1-22.4 2.7c-5-.7-9.7-2-13.2-6.2Z" />
-    <style>
-        path { fill: #000; }
-        @media (prefers-color-scheme: dark) {
-            path { fill: #FFF; }
-        }
-    </style>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 430 430" width="512" height="512">
+<!-- Herradura: "Horseshoe" (Wired Gradient) de Lordicon (lordicon.com), licencia gratuita con atribución, la misma de Uma Tracker y Uma Night. Calendario y composición propios. -->
+  <defs>
+    <linearGradient id="hs" gradientUnits="userSpaceOnUse" x1="50" y1="40" x2="380" y2="400">
+      <stop offset="0" stop-color="#4BE1EC"/>
+      <stop offset="1" stop-color="#CB5EEE"/>
+    </linearGradient>
+  </defs>
+  <g fill="none" stroke="url(#hs)" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="48" y="78" width="334" height="314" rx="44" stroke-width="20"/>
+    <path stroke-width="20" d="M48 150h334"/>
+    <path stroke-width="24" d="M140 46v62M290 46v62"/>
+  </g>
+  <g transform="translate(215 272) scale(.5) translate(-215 -215)">
+    <g fill="none" stroke="url(#hs)" stroke-linecap="round" stroke-linejoin="round">
+      <path stroke-width="34" d="M343.793 101.655c28.913 81.878 63.338 273.464-128.806 273.464-192.142 0-157.688-191.556-128.759-273.445M285.83 89.836s89.601 210.113-70.851 210.113-70.814-210.113-70.814-210.113m-.013-.201L82.345 54.681 73.757 79.05a16.225 16.225 0 0 0 7.315 19.515l49.972 28.261M285.859 89.89l61.807-34.954 8.588 24.37a16.224 16.224 0 0 1-7.315 19.514l-49.972 28.262M126.465 355.36l36.777-65.669m140.183 65.669-36.777-65.669"/>
+      <path stroke-width="40" d="M107.801 286.6h.012m214.351 0h.012M93.43 246.199h.013m243.09 0h.014M91.815 206.5h.014m246.319 0h.014"/>
+    </g>
+    <path fill="url(#hs)" d="M199.993 338.295c0 8.281 6.714 14.995 14.995 14.995 8.281 0 14.995-6.714 14.995-14.995 0-8.281-6.714-14.995-14.995-14.995-8.281 0-14.995 6.714-14.995 14.995z"/>
+  </g>
 </svg>
